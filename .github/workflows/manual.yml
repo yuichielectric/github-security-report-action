@@ -16,7 +16,7 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.SECURITY_TOKEN }}
-          sarifReportDir: ./samples/sarif/peter-murray/advanced-security-java
+          sarifReportDir: ./samples/sarif/
           outputDir: .
           
       - name: Upload Artifacts
